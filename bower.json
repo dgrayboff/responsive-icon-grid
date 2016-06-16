@@ -1,0 +1,23 @@
+{
+  "name": "responsive-icon-grid",
+  "homepage": "https://github.com/dgrayboff/responsive-icon-grid",
+  "authors": [
+    "David <dgrayboff@gmail.com>"
+  ],
+  "description": "bower.json",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "susy": "^2.2.12",
+    "meyer-reset": "*"
+  }
+}
