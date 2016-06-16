@@ -20,7 +20,7 @@
   font-family: 'Lato', Calibri, Arial, sans-serif;
   display: block;
   color: #47a3da;
-  width: 21em;
+  width: 33%;
   height: 21em;
   text-align: center;
   margin: 0; }
@@ -59,8 +59,12 @@
 
   .middlecol {
     border-right: none; } }
-@media (max-width: 365px) {
+@media (max-width: 940px) {
   .content {
-    border-top: 1px solid #ddd; } }
+    width: 50%; } }
+@media (max-width: 400px) {
+  .content {
+    border-top: 1px solid #ddd;
+    width: 100%; } }
 
 /*# sourceMappingURL=styles.css.map */

@@ -21,8 +21,9 @@ $thatgrey: #ddd;
   font-family: 'Lato', Calibri, Arial, sans-serif;
   display: block;
   color: $thatblue;
+  // border: 1px solid black;
   // text-align: center;
-  width: 21em;
+  width: 33%;
   height: 21em;
   text-align: center;
   margin: 0;
@@ -84,8 +85,15 @@ $thatgrey: #ddd;
 //
 // }
 
- @media (max-width: 365px) {
+@media (max-width: 940px) {
+  .content {
+    width: 50%;
+  }
+}
+
+ @media (max-width: 400px) {
    .content {
     border-top: 1px solid $thatgrey;
+    width: 100%
    }
  }
