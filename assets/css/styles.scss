@@ -16,7 +16,7 @@ $thatblue: #47a3da;
 $thatgrey: #ddd;
 
 .content {
-  @include span(3);
+  @include span(4);
   padding: 4em 0 22em 0;
   font-family: 'Lato', Calibri, Arial, sans-serif;
   display: block;
