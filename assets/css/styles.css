@@ -19,7 +19,7 @@
   padding: 4em 0 22em 0;
   font-family: 'Lato', Calibri, Arial, sans-serif;
   display: block;
-  color: #47a3da;
+  color: #F2994B;
   width: 33%;
   height: 21em;
   text-align: center;
@@ -35,7 +35,7 @@
 
 .content:hover {
   color: #FFF;
-  background-color: #47a3da; }
+  background-color: #F2994B; }
 
 .bottomrow {
   border-top: 1px solid #ddd;
